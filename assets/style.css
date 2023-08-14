@@ -1,0 +1,130 @@
+body{
+    width: auto;
+    padding: 10px;
+}
+
+header {  
+    background-color: white;  
+    position: fixed;  
+    top: 0;  
+    z-index: 100;  
+    width: 100%;  
+    margin-bottom: 20px;
+    }
+
+main { 
+    background-color: rgb(222, 198, 16); 
+    text-align: center;
+}
+h1{
+    font-size: 2em;
+}
+
+.startcarusel{
+    padding-top: 20px;
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position:relative;
+    display: flex;
+    flex-direction: row;
+}
+.fier{
+    margin-top: 20px;
+}
+
+.burger{
+    text-align:right;
+}
+
+.logo_fb{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 8px;
+}
+
+
+.logo_insta {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: top;
+}
+
+.rightpic {
+    float: right; /* Выравнивание по правому краю */
+    margin: 0 0 5px 5px; /* Отступы вокруг фотографии */
+   }
+
+.socsety {
+    text-align: center;
+    padding:5;
+    float: top;
+}
+
+.content {
+    background-color: white; 
+    font-size:larger;
+    font-family:Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: left;
+
+}
+
+.photo{
+    width: 300px;
+    height:200px;
+    margin: 40px;
+}
+
+
+.contact{
+    background-color: black;
+    color: rgb(255, 255, 255);
+    display: block;
+   }
+
+.interval_0{
+    margin-bottom: 20px;
+    color: rgb(222, 198, 16);
+}
+
+.interval{
+    color: rgb(222, 198, 16); 
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+   @media screen and (max-width: 800px) {
+    .logo {
+        display: none;
+        
+    }
+    body {
+        display:flex;
+        justify-self: center;
+        flex-direction: column;
+    }
+
+
+    main{
+        margin:auto;
+        display:flex;
+        justify-self: center;
+        flex-direction: column;
+        align-items:baseline;
+    }
+
+    .photo {
+        width: 8em;
+        height: 5em;
+        margin: 0.5em;
+
+    }
+
+
+}
