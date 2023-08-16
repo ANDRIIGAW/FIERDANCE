@@ -163,11 +163,26 @@ h1{
         margin: 5px;
     }
 
+    .adress1{
+        font-size: 20px;
+        text-align: left;
+        width: 50%;
+        height:auto;
+        margin: 5px;
+    }
 }
 @media screen and (max-width: 300px) {
     .child {
         width: 100px;
         height: 70px;
+        margin: 5px;
+    }
+
+    .adress1{
+        font-size: 20px;
+        text-align: left;
+        width: 50%;
+        height:auto;
         margin: 5px;
     }
 
