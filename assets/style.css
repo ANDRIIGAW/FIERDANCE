@@ -166,9 +166,9 @@ h1{
 }
 @media screen and (max-width: 400px) {
     .child {
-        width:120px;
-        height: 70px;
-        margin: 5px;
+        width: 200px;
+        height: 130px;
+        margin: 10px;
     }
 
 
