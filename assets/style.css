@@ -155,7 +155,7 @@ h1{
     border-radius: 50%;
 }
 
-@media screen and (max-width: 2000px) {
+@media screen and (max-width: 800px) {
     body {
         display:flex;
         justify-self: center;
@@ -172,13 +172,13 @@ h1{
     }
 
     .child {
-        width: 300px;
-        height: 200px;
+        width: 200px;
+        height: 150px;
         margin: 10px;
     }
 
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 400px) {
     .child {
         width:120px;
         height: 70px;
