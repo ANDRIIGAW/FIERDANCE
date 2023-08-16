@@ -155,7 +155,7 @@ h1{
     border-radius: 50%;
 }
 
-   @media screen and (max-width: 1080px) {
+@media screen and (max-width: 2000px) {
     body {
         display:flex;
         justify-self: center;
@@ -166,16 +166,23 @@ h1{
     main{
         margin:auto;
         display:flex;
-        justify-self: center;
+        justify-self: start;
         flex-direction: column;
         align-items:baseline;
     }
 
-    .photo {
-        width: 8em;
-        height: 5em;
-        margin: 0.5em;
+    .child {
+        width: 300px;
+        height: 200px;
+        margin: 10px;
+    }
 
+}
+@media screen and (max-width: 300px) {
+    .child {
+        width:120px;
+        height: 70px;
+        margin: 5px;
     }
 
 
