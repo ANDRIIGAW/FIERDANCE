@@ -155,7 +155,7 @@ h1{
     border-radius: 50%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
 
     .child {
         width: 200px;
@@ -164,7 +164,7 @@ h1{
     }
 
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 300px) {
     .child {
         width: 200px;
         height: 130px;
